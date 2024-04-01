@@ -78,7 +78,7 @@ class Elevator:
     def initializeElevatorToFloor(self, startingFloor: int) -> None:
         """
         Reset the elevator and change the initial floor
-        :param starting_floor:
+        :param startingFloor:
         """
         self.initialFloor = startingFloor
         self.currentFloor = self.initialFloor
